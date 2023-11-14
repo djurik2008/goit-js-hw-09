@@ -26,6 +26,7 @@ const options = {
       timerInterval = setInterval(() => {
         timer(selectedDates[0])
       }, 1000);
+      refs.btnStartEl.disabled = true
     })
   },
 };
